@@ -2,7 +2,7 @@
 Interactive Developer 김종민님의 Creative Coding을 공부합니다. (https://www.youtube.com/c/cmiscm)
 
 ### moving_wave 
-- _출처:_https://www.youtube.com/watch?v=LLfhY4eVwDY&list=PLGf_tBShGSDNGHhFBT4pKFRMpiBrZJXCm_
+- *출처: https://www.youtube.com/watch?v=LLfhY4eVwDY&list=PLGf_tBShGSDNGHhFBT4pKFRMpiBrZJXCm*
 
 - __JS에서의 import, export__
 
