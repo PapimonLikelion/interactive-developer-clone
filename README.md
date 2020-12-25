@@ -1,7 +1,7 @@
 # interactive-developer-clone
 Interactive Developer 김종민님의 Creative Coding을 공부합니다. (https://www.youtube.com/c/cmiscm)
 
-### moving_wave 
+## [moving_wave] 
 - *출처: https://www.youtube.com/watch?v=LLfhY4eVwDY&list=PLGf_tBShGSDNGHhFBT4pKFRMpiBrZJXCm*
 
 - __JS 모듈 (참고: https://ko.javascript.info/modules-intro)__
