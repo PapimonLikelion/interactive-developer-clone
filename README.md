@@ -27,3 +27,25 @@ Interactive Developer 김종민님의 Creative Coding을 공부합니다. (https
     - Block의 어느 부분에 맞았는지를 계산하는 게, Window 보다는 조금 복잡한 수식이 요구된다. 
     - 해당 프로젝트에서는 현재 Ball 객체의 위치와 Block의 4개의 변 간의 거리 중 최소값을 구한다. 
     - 해당 최솟값이 x에 가깝다면 x의 벡터에 -1을, y에 가깞다면 y의 벡터에 -1을 곱한다. 
+
+## [rotating_polygon]
+- *출처: https://www.youtube.com/watch?v=urDcoyIc6VQ*
+
+- __Pointer EventListener__
+  - onpointerdown
+    - 포인터가 활성화 되면 발생
+    - 마우스의 경우 버튼을 하나도 안 누른 상태에서 최소 하나라도 누른 상태로 변경 시 발생됨
+  - onpointermove
+    - 포인터가 좌표를 바꾸거나, 터치 액션을 감지할 때 발생
+  - onpointerup 
+    - 포인터가 더 이상 유효하지 않을 때 발생
+
+- __translate() (참고: https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/translate)__
+  - 해당 그림을 그리기 전에, 그림 그릴 위치의 기준을 X좌표는 x 만큼 Y좌표는 y만큼 이동
+
+- __context의 save(), restore() (참고: https://blog.naver.com/PostView.nhn?blogId=ads226&logNo=220587596901)__
+  - context 영역에 설정된 기존의 스타일을 저장하고 다시 불러오는 함수들
+  - 스타일 저장 방법은 stack의 동작과 유사하게 동작
+    - save()는 스타일을 stack에 push
+    - restore()는 스타일을 stack에서 pop
+

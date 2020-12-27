@@ -19,7 +19,7 @@ export class Polygon {
         ctx.translate(this.x, this.y);
 
         this.rotate -= moveX * 0.008;
-        ctx.rotate(this.rotate);
+        ctx.rotate(this.rotate); //각도 만큼 rotate
 
         for (let i = 0; i < this.sides; i++) {
             const x = this.radius * Math.cos(angle * i);
@@ -30,6 +30,6 @@ export class Polygon {
 
         ctx.fill();
         ctx.closePath();
-        ctx.restore();
+        ctx.restore();  // 가장 최근에 저장된 canvas를 복구
     }
 }

@@ -46,21 +46,20 @@ class App {
 
         this.ctx.clearRect(0, 0, this.stageWidth, this.stageHeight);
 
-        this.moveX *= 0.92;
-
         this.polygon.animate(this.ctx, this.moveX);
     }
 
     onDown(e) {
         this.isDown = true;
         this.moveX = 0;
-        this.offsetX = e.clientX;
+        this.offsetX = e.clientX; // clientX는 해당 사용자의 인터랙션 좌표
     }
 
     onMove(e) {
         if(this.isDown) {
             this.moveX = e.clientX - this.offsetX;
             this.offsetX = e.clientX;
+            console.log("moveX = ", this.moveX, " offsetX = ", this.offsetX);
         }
     }
 
