@@ -15,6 +15,7 @@ Interactive Developer 김종민님의 Creative Coding을 공부합니다. (https
   - 리페인트 이전에 실행할 콜백을 인자로 받는다. 
   
 - __bind() (참고: https://kamang-it.tistory.com/entry/JavaScript07this-this%EB%B0%94%EC%9D%B8%EB%93%9C%ED%8E%B8bindcallapply)__
+  - 함수와 객체를 서로 묶는 역할을 한다. 
   - this는 내가 정한 object로 고정!
 
 ## [ball_collision]
